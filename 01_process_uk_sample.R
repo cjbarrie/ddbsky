@@ -62,8 +62,6 @@ output_file <- file.path(processed_dir, paste0("combined_posts_", processing_dat
 # Save the combined dataset with a date suffix
 saveRDS(combined_posts, output_file)
 
-
-
 # Define the newspapers and their directories. 
 # *****Change to most recent date when updating****
 outlets <- list(
